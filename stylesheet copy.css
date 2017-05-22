@@ -1,0 +1,93 @@
+
+body {
+    margin: auto;
+    padding:0;
+	background-image: url("CliffBEACH%20copy.jpg");
+    background-color:#87c3de;
+	background-size: cover;
+	background-repeat: NO-REPEAT;
+	height: 100%;
+	width: 100%;
+    font-family: 'Maitree', serif;
+    
+}
+
+.content {
+    margin: auto;
+    padding:0;
+	width: 500px;
+    height: 100%;
+    height: 250px;
+	background-color:rgba(255,255,255,.7);
+
+    
+}
+
+.fade{
+    opacity: 1;
+    width: 500px;
+    height: 450px;
+    background-color: rgba(255,255,255,.7);
+    background-position: center;
+    margin:auto;
+    font-size: 0px;
+}
+
+.fade:hover{
+    opacity: 1;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    background-color: rgba(255,255,255,1);
+    background-image: url("/Users/melissa/Desktop/Option1.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:auto;
+    background-size: contain;
+    font-size: 0px;
+
+        
+}
+
+.projects {
+    margin: auto;
+    padding:0;
+	width: 500px;
+    height: 100%;
+    height: 300px;
+	background-color:rgba(255,255,255,.8);
+    font-family: 'Maitree', serif; 
+    position:absolute;
+    top:720px;
+    display:inline-block;
+    right: 470px;
+}
+
+.mprojects {
+    margin: auto;
+    padding:0;
+	width: 500px;
+    height: 100%;
+    height: 1000px;
+    top: 1020px;
+    position:absolute;
+	background-color:rgba(255,255,255,.8);
+    font-family: 'Maitree', serif; 
+    display:inline-block;
+    right:470px;
+   
+}
+
+#btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+#btn:hover, #dbtn:focus {
+    background-color: #3e8e41;
+}
