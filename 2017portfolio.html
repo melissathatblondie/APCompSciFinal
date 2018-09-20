@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="stylesheet%20copy.css">
+        <script src="myScript.js"></script>
+		<title>Melissa's Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Maitree|Roboto" rel="stylesheet">
+        
+        <script>
+            function myFunction2(){
+                var image = document.getElementById("box");
+                
+                if (image.src.match("/Users/melissa/Downloads/ButtonPic22.jpg")){
+                    image.src = "/Users/melissa/Downloads/ButtonPic12.jpg";
+                    image.alt = "Open Box";
+                }
+                else{
+                    image.src = "/Users/melissa/Downloads/ButtonPic22.jpg";
+                    image.alt = "Closed Box";
+                }
+                image.style.width = '100%';
+            }
+        </script>
+	</head>
+	
+	<body>
+		<div class = "sideblock">
+		  <div class = "content">
+			 <h1 align = "center";>Welcome to Melissa's Portfolio</h1>
+			 <h2 align = "center";>Thanks for a great year, Ms.Wade!</h2>
+             <h5 align = "center";>Hover below for a surprise!</h5>
+            </div>
+			
+			<div class = "fade">
+                &nbsp;
+			</div><div class = "projects">
+               <h4 align ="center">About Me</h4>
+            
+				<p>I'm a girl and I code. Everyday for this past year, I've invested my time into building programs and constructing algorithms.</p>
+				
+            
+                <h4 align= "center">The Ultimate Output</h4>
+                <p>As of now, this is the proudest output of my project:</p>
+                <p><a href = "premaderanchscreenshot.png">Click here</a> to view the code.</p>
+			
+                
+                <!--<img src = "portfoliopic1.png" alt="Ice Cream" height = "270" width ="400">--></div>
+        
+        
+        <div class = "mprojects">
+		  <h4 align = "center">Classes 'n Stuff</h4>
+		  <p>Click on a link to view a class of my final project:<p>
+			
+			<ul>
+				<li><a href = "ranch.png">Ranch</a></li>
+				<li><a href = "horse.png">Horse</a></li>
+				<li><a href = "pony.png">Pony</a></li>
+			</ul>
+	
+        <h4 align = "center">An Interface!</h4>
+		  <p>Click on the link to view my interface:<p>
+			
+			<ul>
+				<li><a href = "/Users/melissa/Desktop/AP Computer Science 2016 2017/FinalProject/Whinny.java">Whinny Interface</a></li>
+				
+			</ul>
+            
+            <h4 align = "center">Drivers 'n Stuff</h4>
+		  <p>Click on a link to view a driver of my final project:<p>
+			
+			<ul>
+				<li><a href = "/Users/melissa/Desktop/AP Computer Science 2016 2017/FinalProject/ponyDriver.java">Pony Driver</a></li>
+				<li><a href = "/Users/melissa/Desktop/AP Computer Science 2016 2017/FinalProject/stablesDriver.java">Stables Driver</a></li>
+				<li><a href = "/Users/melissa/Desktop/AP Computer Science 2016 2017/FinalProject/ranchDriver.java">Ranch Driver</a></li>
+                <li><a href = "/Users/melissa/Desktop/AP Computer Science 2016 2017/FinalProject/premadeRanch.java">Zero-arg Ranch Driver</a></li>
+			</ul>
+		
+		  <h4 align= "center">Sortin' and Switchin'</h4>
+		  <p>Check out the code for these switch statements and this sorting algorithm: </p>
+			<ul>
+				<li><a href = "/Users/melissa/Desktop/AP Computer Science 2016 2017/FinalProject/mySwitch.java">My Switch</a></li>
+				<li><a href = "/Users/melissa/Desktop/AP Computer Science 2016 2017/FinalProject/sortRanchNumberArray.java">My Sort</a></li>
+			</ul>
+        
+        <button id="btn" onclick = "myFunction2()">Click to see how the user can put in different inputs to the Ranch Driver!</button><br>
+        <img id = "box" src="/Users/melissa/Downloads/ButtonPic12.jpg" alt="Closed Box" width='100%'>
+        </div>
+</div>
+        
+       
+     
+
+	</body>
+</html>
